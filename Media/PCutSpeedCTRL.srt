@@ -1,0 +1,83 @@
+1
+00:00:01,920 --> 00:00:09,360
+Kalibrasyon Mikrofonu kullanılarak yapılan bazı testler...
+
+2
+00:00:12,400 --> 00:00:18,280
+Hız ve Ses testi 1.1K RPM
+
+3
+00:00:18,280 --> 00:00:23,200
+Hız ve Ses testi 10.1K RPM
+
+4
+00:00:23,200 --> 00:00:27,760
+Hız ve Ses testi 20.1K RPM
+
+5
+00:00:27,760 --> 00:00:30,040
+Hız ve Ses testi 20.1K RPM
+Volume: %30
+
+6
+00:00:30,200 --> 00:00:33,200
+Hız ve Ses testi 27.1K RPM
+Volume: %30
+
+7
+00:00:33,640 --> 00:00:35,720
+Hız ve Ses testi 28.1K RPM
+Volume: %30
+
+8
+00:00:36,160 --> 00:00:37,960
+Hız ve Ses testi 29.1K RPM
+Volume: %30
+
+9
+00:00:38,400 --> 00:00:40,200
+Hız ve Ses testi 30.1K RPM
+Volume: %30
+
+10
+00:00:40,200 --> 00:00:43,520
+30.1K -> 10.1K RPM 
+Yavaşlama Rampası
+Volume: %30
+
+11
+00:00:43,520 --> 00:00:49,160
+Speed: 3x
+
+12
+00:00:49,160 --> 00:01:01,520
+10K RPM Metrik 3 Aluminyum delme testi
+
+13
+00:01:09,160 --> 00:01:20,120
+1K RPM Metrik 3 Aluminyum delme testi.
+
+14
+00:01:21,800 --> 00:01:33,800
+Takılı olan uç ile delik delmek için, 1K RPM düşük kalmaktadır.
+
+15
+00:01:34,760 --> 00:01:42,600
+Spindle motorunun 1K RPM gibi düşük hızlarda hız sabitleme başarısını görmek için deniyoruz.
+
+16
+00:01:42,600 --> 00:01:48,800
+PCB 0.7mm uç ile delik delme testi.
+
+17
+00:01:50,160 --> 00:02:12,000
+Delik delme .gcodu çalışırken hız değişikliklerinde ki spindle tepkileri.
+
+18
+00:02:21,880 --> 00:02:29,640
+Speed: 3x
+
+19
+00:02:50,960 --> 00:03:03,400
+PCB Kenar Kesim Testi
+

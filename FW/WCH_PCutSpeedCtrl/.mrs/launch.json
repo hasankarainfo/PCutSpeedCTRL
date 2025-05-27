@@ -1,0 +1,65 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "mrs-debugger",
+			"request": "launch",
+			"name": "WCH_PCutSpeedCtrl",
+			"cwd": "/mnt/Work/Projects/2025/250401_PCutSpeedCTRL/V01/FW/WCH_PCutSpeedCtrl",
+			"openOCDCfg": {
+				"useLocalOpenOCD": true,
+				"executable": "/mnt/Work/Tools/Mounriver/MRS2/MRS-linux-x64/resources/app/resources/linux/components/WCH/OpenOCD/OpenOCD/bin/openocd",
+				"configOptions": [
+					"-f \"/mnt/Work/Tools/Mounriver/MRS2/MRS-linux-x64/resources/app/resources/linux/components/WCH/OpenOCD/OpenOCD/bin/wch-riscv.cfg\" -c \"chip_id CH32V003\""
+				],
+				"gdbport": 3333,
+				"telnetport": 4444,
+				"tclport": 6666,
+				"host": "localhost",
+				"port": 3333,
+				"skipDownloadBeforeDebug": false,
+				"enablePageEraser": false,
+				"enableNoZeroWaitingAreaFlash": false
+			},
+			"gdbCfg": {
+				"executable": "/mnt/Work/Tools/Mounriver/MRS2/MRS-linux-x64/resources/app/resources/linux/components/WCH/Toolchain/RISC-V Embedded GCC12/bin/riscv-wch-elf-gdb",
+				"commands": [
+					"set mem inaccessible-by-default off",
+					"set architecture riscv:rv32",
+					"set remotetimeout unlimited",
+					"set disassembler-options xw"
+				],
+				"options": []
+			},
+			"startup": {
+				"initCommands": {
+					"initReset": true,
+					"initResetType": "init",
+					"armSemihosting": false,
+					"additionalCommands": []
+				},
+				"loadedFiles": {
+					"executableFile": "/mnt/Work/Projects/2025/250401_PCutSpeedCTRL/V01/FW/WCH_PCutSpeedCtrl/obj/WCH_PCutSpeedCtrl.elf",
+					"symbolFile": "/mnt/Work/Projects/2025/250401_PCutSpeedCTRL/V01/FW/WCH_PCutSpeedCtrl/obj/WCH_PCutSpeedCtrl.elf",
+					"executableFileOffset": 0,
+					"symbolFileOffset": 0
+				},
+				"runCommands": {
+					"runReset": true,
+					"runResetType": "halt",
+					"additionalCommands": [],
+					"setBreakAt": "",
+					"continue": true,
+					"setProgramCounterAt": 0
+				},
+				"debugInRAM": false
+			},
+			"svdpath": "/mnt/Work/Tools/Mounriver/MRS2/MRS-linux-x64/resources/app/resources/linux/components/WCH/SDK/default/RISC-V/CH32V003/NoneOS/CH32V003xx.svd",
+			"output": {
+				"showDebugGDBTrace": true,
+				"saveDebugOutputToFile": false,
+				"showDebugOutputTimestamps": true
+			}
+		}
+	]
+}

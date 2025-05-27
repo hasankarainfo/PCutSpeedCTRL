@@ -1,0 +1,253 @@
+(footprint "RV_Disc_D15.5mm_W5.4mm_P7.5mm_Spec"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Varistor, diameter 15.5mm, width 5.4mm, pitch 7.5mm")
+	(tags "varistor SIOV")
+	(property "Reference" "REF**"
+		(at 12.15 2.5 270)
+		(layer "F.SilkS")
+		(uuid "a3e5fe82-3bd9-4860-9162-41ccc4fdd577")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "7MM 431"
+		(at 2.45 2.8 0)
+		(layer "F.Fab")
+		(uuid "5070e99d-558c-4ab7-b141-114d3742c41a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30f8c284-ac55-4b50-8c63-4d1e898bce02")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Voltage dependent resistor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43e78262-588d-4304-b319-0441e993c5f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Link" "https://ozdisan.com/Product/Detail/339778/TVR07431KSABY"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c96e7ce8-7d5d-4ad9-b0e2-51a78df61017")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "TVR07431KSABY"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc1546d9-7b1c-4a33-b9cf-e2a18c769262")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "0.05"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a3afa1e-ec5a-4344-b696-bcc075ce42d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4 -1.5)
+		(end -4 3.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd6e028f-fee3-4aaa-aa11-03366a601877")
+	)
+	(fp_line
+		(start -4 -1.5)
+		(end 11.5 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca345d2b-c22d-4446-ab89-4cf6d29750b6")
+	)
+	(fp_line
+		(start -4 3.9)
+		(end 11.5 3.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6aff4d31-7e6c-41b2-aa20-d6814491141b")
+	)
+	(fp_line
+		(start 11.5 -1.5)
+		(end 11.5 3.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f7784d8-637a-408b-8db9-45ddedac1cc7")
+	)
+	(fp_line
+		(start -4.25 -1.75)
+		(end -4.25 4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98641bc2-b007-4993-8686-121b0b94a1b3")
+	)
+	(fp_line
+		(start -4.25 -1.75)
+		(end 11.75 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ff93e75-d98f-482b-a22e-15b9826aa13f")
+	)
+	(fp_line
+		(start -4.25 4.15)
+		(end 11.75 4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8d57522-a132-4730-ad28-b40788687d54")
+	)
+	(fp_line
+		(start 11.75 -1.75)
+		(end 11.75 4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a6a0aef-4845-40e9-b9c6-44d98f60116b")
+	)
+	(fp_line
+		(start -4 -1.5)
+		(end -4 3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12b15c86-9c59-46f7-aa77-a5bab7bd288f")
+	)
+	(fp_line
+		(start -4 -1.5)
+		(end 11.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a57cd32-894e-4f05-9647-2121516d6446")
+	)
+	(fp_line
+		(start -4 3.9)
+		(end 11.5 3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dca828a0-13e9-4123-a883-eabe8327add0")
+	)
+	(fp_line
+		(start 11.5 -1.5)
+		(end 11.5 3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3f1fa25-1fe3-4cf6-b180-d2105cfbd49d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.15 2.5 90)
+		(layer "F.Fab")
+		(uuid "9f20000c-973c-4a0b-8450-5a71207890a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e89812a-d5cd-4ddf-816e-3875d52763f8")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 2.4)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7965e457-040c-4036-b512-c109966bad15")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Varistor.3dshapes/RV_Disc_D15.5mm_W5.4mm_P7.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

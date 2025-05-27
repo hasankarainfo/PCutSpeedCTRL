@@ -1,0 +1,220 @@
+(footprint "R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor, Axial_DIN0309 series, Axial, Vertical, pin pitch=2.54mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
+	(tags "Resistor Axial_DIN0309 series Axial Vertical pin pitch 2.54mm 0.5W = 1/2W length 9mm diameter 3.2mm")
+	(property "Reference" "REF**"
+		(at 0.1 2.6 0)
+		(layer "F.SilkS")
+		(uuid "3edd93f4-4c61-49fd-963c-ae49c081c531")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "47R"
+		(at 2.5 2.3 0)
+		(layer "F.Fab")
+		(uuid "5a27f303-07be-48e7-a2fa-40879cb627dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "Datasheet"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84d2bb5c-e117-4d1e-bf61-3e0973e96781")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resistor, small symbol"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f211ea4b-3300-4fd9-acf2-362a5b962b41")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Link" "Part Link"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e26a5113-2927-4def-a0ad-fdf1af26faa8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "Part Number"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25295879-d4d8-4796-af90-04197568373d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "Price"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa0cf5ad-d5ea-4904-a2f9-fc945f719a79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Pad" "12.7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2339ea8b-da20-4278-99fa-a75f2f2b4b64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start 1.344775 0.97138)
+		(mid -1.655812 -0.101418)
+		(end 1.453272 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61fc0900-e65f-41c7-95d5-1645025a5aa1")
+	)
+	(fp_line
+		(start -1.85 -1.85)
+		(end -1.85 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "de0398da-a830-49ea-a3e4-ae8a4797eefe")
+	)
+	(fp_line
+		(start -1.85 1.85)
+		(end 3.59 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a48b0ffd-d666-4127-9226-6bf6a2074deb")
+	)
+	(fp_line
+		(start 3.59 -1.85)
+		(end -1.85 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d407231e-0284-4c97-b95d-aaf29faaf22f")
+	)
+	(fp_line
+		(start 3.59 1.85)
+		(end 3.59 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a00b9fdf-a4ea-402a-ac30-cb624301b701")
+	)
+	(fp_line
+		(start 0 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e748e2f-1755-49c0-87b6-d8ad5dd54c20")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7e9871d5-d33c-466d-9dc0-a7891861b2ab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 2.6 0)
+		(layer "F.Fab")
+		(uuid "fbc611d8-f7b5-4f03-8c83-3874c839a009")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fe43d632-29c7-421f-af9d-ddb5a26412e5")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "846e258a-1ac9-4206-9134-874f36c3201d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

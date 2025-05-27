@@ -1,0 +1,266 @@
+(footprint "C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C, Rect series, Radial, pin pitch=15.00mm, length*width=18*8mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf")
+	(tags "C Rect series Radial pin pitch 15.00mm length 18mm width 8mm Capacitor")
+	(property "Reference" "REF**"
+		(at -0.1 5.3 180)
+		(layer "F.SilkS")
+		(uuid "e6ba5343-5b5e-459b-94eb-3934d3c816a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1uF 400V"
+		(at 7.5 2.5 180)
+		(layer "F.Fab")
+		(uuid "a931909e-5286-4fc2-9f52-f6fc7e040aae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe20a629-d09c-405e-b525-a37d8b699774")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CAP.POL.330nF 305VAC 15MM 10% X2 MKP BULK FARATRON"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a46d7c9-e95d-4902-a6ab-37c1ccaf7d73")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Link" "https://www.motorobit.com/1uf-400vdc-15mm-damla-tipi-polyester-kondansator"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf52db38-66d6-45ec-9bf6-728f5f0f2428")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "KOM.KND.03.000133"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd1d6b51-892e-4d56-8228-ca7a94e1940c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "0.1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "114a0f43-9181-43c0-9eff-eb2b306c27c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Pad" "THT17.5x8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b804c020-8d98-47ba-bef2-3b0f60ae3811")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.62 -4.12)
+		(end -1.62 4.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "972b674d-92ae-4622-8e24-b53a1af24bc6")
+	)
+	(fp_line
+		(start -1.62 -4.12)
+		(end 16.62 -4.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0c00cdb-f07e-4ec7-9991-1c9b373f8cb3")
+	)
+	(fp_line
+		(start -1.62 4.12)
+		(end 16.62 4.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffda20aa-9464-4bec-bfd3-997e417d4dcf")
+	)
+	(fp_line
+		(start 16.62 -4.12)
+		(end 16.62 4.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d164266-9f44-4e0a-b949-29e0c2c54a8b")
+	)
+	(fp_line
+		(start -1.75 -4.25)
+		(end -1.75 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43b8f226-041f-4218-9b8f-55b15be19cbb")
+	)
+	(fp_line
+		(start -1.75 4.25)
+		(end 16.75 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b83a5025-e0b7-4ea8-91b6-9c084c661ecd")
+	)
+	(fp_line
+		(start 16.75 -4.25)
+		(end -1.75 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa7d18a4-a215-42c3-a099-6fd5b09a18ab")
+	)
+	(fp_line
+		(start 16.75 4.25)
+		(end 16.75 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ced4703-51ed-4717-9c0d-7cc21ee0b83f")
+	)
+	(fp_line
+		(start -1.5 -4)
+		(end -1.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b672c46-6738-4681-9fff-33113df1702a")
+	)
+	(fp_line
+		(start -1.5 4)
+		(end 16.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b9e7bee-c23f-4d55-8743-d14ded23698a")
+	)
+	(fp_line
+		(start 16.5 -4)
+		(end -1.5 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b243952-dd78-4d47-b769-2a67f77fdc5a")
+	)
+	(fp_line
+		(start 16.5 4)
+		(end 16.5 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fba55e64-9407-47d7-90a3-bf543fdc4fab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 5.3 180)
+		(layer "F.Fab")
+		(uuid "26bab07b-0a6c-4553-8594-a62e1e81516f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "756d7333-8598-41ab-b45a-0410ad843f96")
+	)
+	(pad "2" thru_hole circle
+		(at 15 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e3821ae-84bf-4290-bb54-3a1bfa50738c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

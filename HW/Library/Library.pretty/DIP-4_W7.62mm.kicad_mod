@@ -1,0 +1,286 @@
+(footprint "DIP-4_W7.62mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
+	(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
+	(property "Reference" "REF**"
+		(at 0 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "9e7880fa-c607-43dc-aabf-819c24b6359b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PC817"
+		(at 4 2.9 0)
+		(layer "F.Fab")
+		(uuid "8923ca9c-9e7c-4e1f-810c-8018c988ff4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4230e737-bea2-4488-8740-c9836f17cc97")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cde701c-7831-46b2-8045-62f02298ff1b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Link" "https://ozdisan.com/Product/Detail/502879/UPC817CG-D04-T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "821aea2b-5714-42e0-8d33-668b0f3e847f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "UPC817CG-D04-T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5582505-9b61-4e78-8ae2-95ce64b0137a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "0.08"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0732d457-a3e1-4630-aa28-6cfa93d8eb8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Pad" "DIP4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60b3755d-4159-4983-92ea-42ae03bdf765")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.16 -1.33)
+		(end 1.16 3.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "643f7bc7-6357-4546-83cb-b988cc557ce2")
+	)
+	(fp_line
+		(start 1.16 3.87)
+		(end 6.46 3.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb529766-1eb4-471d-bf6a-328945c55fcc")
+	)
+	(fp_line
+		(start 2.81 -1.33)
+		(end 1.16 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95654700-c978-482b-902f-5df0eeb50469")
+	)
+	(fp_line
+		(start 6.46 -1.33)
+		(end 4.810001 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f66e3538-86ae-43be-8d18-dfbcf365dc07")
+	)
+	(fp_line
+		(start 6.46 3.87)
+		(end 6.46 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "353de1a4-a919-453e-a684-31cf7dc018ad")
+	)
+	(fp_arc
+		(start 4.810001 -1.33)
+		(mid 3.81 -0.33)
+		(end 2.81 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd6c26df-c480-4cbe-aad4-42b7802d4746")
+	)
+	(fp_poly
+		(pts
+			(xy -1.06 -1.52) (xy 8.67 -1.52) (xy 8.67 4.07) (xy -1.06 4.07)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d9b7b966-b480-4c16-96ab-c9163ae90ce0")
+	)
+	(fp_line
+		(start 0.635 -0.27)
+		(end 1.635 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1aea2250-4991-4b41-b846-388febbe5dd9")
+	)
+	(fp_line
+		(start 0.635 3.81)
+		(end 0.635 -0.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76aea747-8640-4ba0-ab70-d0bf42012857")
+	)
+	(fp_line
+		(start 1.635 -1.27)
+		(end 6.984999 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6cabaef4-e70d-4b32-a7b9-db608f416c2f")
+	)
+	(fp_line
+		(start 6.984999 -1.27)
+		(end 6.985 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bab5c184-3472-42cd-8b24-02caadffe6d5")
+	)
+	(fp_line
+		(start 6.985 3.81)
+		(end 0.635 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e84e1905-8c41-48a7-9a65-64a425f2fa79")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.81 1.27 0)
+		(layer "F.Fab")
+		(uuid "0e68dc78-b898-4fad-a042-7e7353ba1050")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "5ea2c695-8f82-46e3-9744-1b24fe60681e")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d83d07f6-d1b2-4a17-9494-5eaf170c9ab0")
+	)
+	(pad "3" thru_hole circle
+		(at 7.62 2.54)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b209ed95-ae8c-4235-9c97-3d791ee07987")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "95de58bd-d811-4c79-935e-ae10678c3bf4")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-4_W7.62mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
